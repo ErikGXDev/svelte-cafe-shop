@@ -3,5 +3,5 @@
 @tailwind utilities;
 @font-face {
   font-family: droid;
-  src: url("droid.otf") format("opentype");
+  src: url("fonts/droid.otf") format("opentype");
 }
