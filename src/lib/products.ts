@@ -26,7 +26,7 @@ const products: Products = {
       price: 4.99,
     },
     {
-      display: "Stuffed Flatbread",
+      display: "Stuffed Bread",
       emoji: "🥙",
       price: 2.99,
     },
@@ -87,7 +87,7 @@ const products: Products = {
   ],
   candy: [
     {
-      display: "Vanilla Soft Ice Cream",
+      display: "Soft Ice",
       emoji: "🍦",
       price: 1.99,
     },
@@ -107,7 +107,7 @@ const products: Products = {
       price: 1.99,
     },
     {
-      display: "Chocolate Chip Cookie",
+      display: "Cookie",
       emoji: "🍪",
       price: 0.99,
     },

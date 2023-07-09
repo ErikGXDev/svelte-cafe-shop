@@ -50,7 +50,7 @@
   });
 </script>
 
-<div class="flex flex-col justify-between h-full overflow-scroll">
+<div class="flex flex-col justify-between overflow-scroll">
   <li class="list-none text-lg">
     {#each formattedOrder as product, i}
       <ul

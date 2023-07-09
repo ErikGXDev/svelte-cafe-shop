@@ -2,7 +2,7 @@
   import categories, { type Category } from "$lib/categories";
 </script>
 
-<li class="list-none text-lg">
+<li class="list-none text-lg sticky top-0">
   {#each categories as category}
     <ul
       class="border-b border-b-gray-300 font-semibold text-1xl hover:bg-neutral-50 cursor-pointer"

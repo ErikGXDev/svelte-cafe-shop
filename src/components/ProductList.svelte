@@ -20,11 +20,11 @@
           >
             <button
               on:click={() => {
-                ordered = [...ordered, product];
+                if (ordered.length <= 10) ordered = [...ordered, product];
               }}
               class="px-2 py-4 flex items-center justify-center min-w-full h-full"
             >
-              <div class="flex flex-col items-center">
+              <div class="flex flex-col gap-1 items-center">
                 <p class="text-4xl">{product.emoji}</p>
                 <h2 class="text-xl font-semibold">{product.display}</h2>
               </div>
