@@ -12,7 +12,7 @@
 </script>
 
 <div class="min-h-screen h-screen max-h-screen w-screen flex overflow-x-hidden">
-  <div class="border-r border-r-gray-300 w-1/5">
+  <div class="border-r border-r-gray-300 w-1/5 relative">
     <h1
       class="font-droid text-6xl pt-4 pb-4 h-24 flex items-center justify-center dotted-bg"
     >
@@ -20,6 +20,14 @@
     </h1>
     <div class="border-b border-b-gray-300" />
     <CategoryList />
+    <div class="absolute bottom-0 left-0 p-4 text-">
+      <p class="leading-tight text-neutral-700">
+        This is not a real store and the branding is purely fictional.
+      </p>
+      <a href="https://github.com/ErikGaDev" class="text-neutral-700 underline"
+        >Made by Erik</a
+      >
+    </div>
   </div>
   <div class="w-3/5 relative h-screen overflow-scroll">
     <div
